@@ -1,1 +1,3 @@
-console.log("hola mundo")
+function updateLanguage(event) {
+    document.location = event.target.value;
+}
