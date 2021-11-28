@@ -1,10 +1,11 @@
 html {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: medium;
 }
 
 body {
     margin: 0;
-    background: linear-gradient(lightskyblue, lightseagreen);
+    background: linear-gradient(lightblue, lightgreen);
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -28,7 +29,7 @@ header section {
 }
 
 main {
-    height: 65vh;
+    height: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -59,13 +60,19 @@ h1 {
 img {
     width: 500px;
     border-radius: 5%;
-    filter: drop-shadow(10px 10px 10px lightgray);
+    filter: drop-shadow(10px 10px 10px lightgray)
 }
 
 p {
     font-size: 2rem;
+    text-align: center;
+    padding: 10px;
 }
 
-a:not(p > a), select, small {
+ul {
+    font-size: 1.8rem;
+}
+
+a:not(main a), select, small {
     font-size: 1.5rem;
 }
