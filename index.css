@@ -80,3 +80,7 @@ a:not(main a), select, small {
 a {
     text-decoration: none;
 }
+
+nav a {
+    margin: 5px;
+}
