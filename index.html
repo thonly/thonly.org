@@ -1,68 +1,25 @@
 <html>
     <head>
         <title>Thon Ly: Certified Fullstack Blockchain & iOS Engineer</title>
-        <meta name="description" content="Bachelor of Arts in Economics, Master of Science in Software Engineering, Doctor of Philosophy in Quantum Intelligence (in progress)">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" href="thonly.jpeg">
-        <meta name="apple-mobile-web-app-capable" content="yes">
-        <meta name="apple-mobile-web-app-status-bar-style" content="black">
-        <link rel="apple-touch-startup-image" href="thonly.jpg">
-        <link rel="apple-touch-icon" href="thonly.jpeg"/>
-        <meta name="mobile-web-app-capable" content="yes">
-        <link rel="shortcut icon" href="thonly.jpeg">
-        <link rel="stylesheet" href="index.css" media="(min-width: 480px)">
-        <link rel="stylesheet" href="index.m.css" media="(max-width: 480px)">
-        <script src="index.js" defer></script>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-QB97SQC1GX"></script>
+        <link rel="stylesheet" href="index.css">
+        <script src="index.js" type="module"></script>
+        <script defer async src="https://www.googletagmanager.com/gtag/js?id=G-QB97SQC1GX"></script>
+        <base href="?lang=en">
     </head>
     <body>
-        <header>
-            <section>
-                <h1>Thon Ly</h1>
-                <a href="mailto:thonly@hawaii.edu">thonly@hawaii.edu</a>
-            </section>
-            <section>
-                <nav>
-                    <!--<a href="https://www.udemy.com/user/thonly">Udemy</a>
-                    <a href="https://medium.com/@thonly">Medium</a>-->
-                    <a href="https://medium.com/@kiitos">Medium</a>
-                    <a href="#" onclick="alert('Coming soon...')">Apple</a>
-                    <a href="https://flat.io/thonly">Flat</a>
-                    <a href="https://soundcloud.com/thonly">SoundCloud</a>
-                    <a href="https://www.youtube.com/c/ThonLy">YouTube</a>
-                </nav>
-                <select onchange="updateLanguage(event)">
-                    <option value="index.html">English</option>
-                    <option value="spanish.html">Spanish</option>
-                </select>
-            </section>
-        </header>
+        <sw-header></sw-header>
         <main>
-            <section>
-                <a href="https://333.eco" target="_self"><img src="thonly.jpg"></a>
-            </section>
-            <section>
-                <p><strong>Founder</strong> at <a href="https://heartbank.org">HeartBank<sup>&reg;</sup></a></p>
-                <p><strong>Instructor</strong> at <a href="https://siliconwat.com">Silicon Wat University</a></p>
-                <p><strong>Game Creator</strong> at <a href="https://thonly.net">THonly<sup>&trade;</sup> Metaverse</a></p>
-                <p><strong>Organic Farmer</strong> at <a href="https://nhiakou.org">Nhia Kou Orchard</a></p>
-            </section>
+            <sw-main>
+                <sw-curriculum></sw-curriculum>
+                <sw-podcast></sw-podcast>
+                <sw-quiz></sw-quiz>
+                <sw-code></sw-code>
+                <sw-cohort></sw-cohort>
+                <sw-coupon></sw-coupon>
+            </sw-main>
+            <sw-footer></sw-footer>
         </main>
-        <footer>
-            <nav>
-                <a href="https://heartbank.me/ThonLy/thank.html">Thank</a>
-                <a href="https://github.com/sponsors/thonly">GitHub</a>
-                <a href="https://cash.app/$ThonLy">CashApp</a>
-                <a href="https://paypal.me/thonly">PayPal</a>
-            </nav>
-            <nav>
-                <a href="https://twitter.com/thonly">Twitter</a>
-                <!--<a href="https://t.me/th0nly">Telegram</a>-->
-                <!--<a href="https://github.com/thonly">GitHub</a>-->
-                <a href="https://www.facebook.com/thonly">Facebook</a>
-                <a href="https://instagram.com/thon.ly">Instagram</a>
-            </nav>
-            <!--<small>&copy; 2022</small>-->
-        </footer>
     </body>
 </html>
