@@ -86,15 +86,13 @@ template.innerHTML = `
                     <div>
                         <h4>Music</h4>
                         <menu>
-                            <li><a>Full Stack</a></li>
-                            <li><a>Blockchain</a></li>
-                            <li><a>iOS</a></li>
+                            <li><a>Coding Music Podcast</a></li>
+                            <li><a>Sinn Sisamouth Music Library</a></li>
                         </menu>
-                        <h4>Sport</h4>
+                        <h4>Sports</h4>
                         <menu>
-                            <li><a>BA in Economics</a></li>
-                            <li><a>MS in Software Engineering</a></li>
-                            <li><a>PhD in Quantum Computing</a></li>
+                            <li><a>Ice Skating</a></li>
+                            <li><a>Sepak Takraw</a></li>
                         </menu>
                     </div>
                 </li>

@@ -1,8 +1,7 @@
 :host {
-	color: #4c4c4c;
+	color: var(--theme-color-1);
 	background-color: white;
 	padding: 10px;
-	--theme-color: darkcyan;
 }
 
 header {
@@ -33,9 +32,13 @@ aside {
 }
 
 h1 {
-	color: black;
+	color: var(--theme-color-1);
 	font-size: 3em;
 	margin: 0;
+}
+
+h1:hover {
+	color: var(--theme-color-2);
 }
 
 sup {
@@ -84,13 +87,13 @@ menu {
 }
 
 ul:hover h3 {
-	color: var(--theme-color);
+	color: var(--theme-color-2);
 	cursor: pointer;
 }
 
 ul:hover div {
 	visibility: visible;
-	border-top-color: var(--theme-color);
+	border-top-color: var(--theme-color-2);
 }
 
 div h4 {
@@ -102,13 +105,18 @@ menu li {
 }
 
 menu li:hover {
-	color: var(--theme-color);
+	color: var(--theme-color-2);
 	cursor: pointer;
 }
 
 menu li a:not([href]) {
 	opacity: 0.5;
 	cursor: default !important;
+}
+
+select {
+	color: var(--palette-color-2);
+	border-color: currentColor;
 }
 
 /*----------*/
