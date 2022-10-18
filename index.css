@@ -1,7 +1,7 @@
 :root {
     --palette-color-1: #264653;
     --palette-color-2: #2A9D8F;
-    --palette-color-3: #E9C46A;
+    --palette-color-3: black;
     --palette-color-4: #7209b7; 
     --palette-color-5: #560bad;
 }
@@ -17,6 +17,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    overflow: hidden;
 }
 
 main {
@@ -36,5 +37,5 @@ sw-main {
 
 sw-footer {
     min-height: 20vh;
-    --theme-color: var(--palette-color-1);
+    --theme-color: var(--palette-color-3);
 }

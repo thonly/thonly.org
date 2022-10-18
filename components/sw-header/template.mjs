@@ -4,6 +4,7 @@ template.innerHTML = `
     <link rel="stylesheet" href="components/sw-header/shadow.css">
     <header>
         <section>
+            <a href="/"><img src="thonly.jpg"></a>
             <a href="/"><h1>Thon Ly</h1></a>
         </section>
         <input id="menu-toggle" type="checkbox">
@@ -15,19 +16,14 @@ template.innerHTML = `
                 <li>
                     <h3>Research</h3>
                     <div>
-                        <a href="#backend-cohort"><button>333.eco</button></a>
-                        <h4>Doctoral Dissertation</h4>
-                        <menu>
-                            <li><a>Watch Videos on Udemy</a></li>
-                            <li><a>Read Textbook on Medium</a></li>
-                            <li><a href="#backend-quiz">Take Quizzes to Check Understanding</a></li>
-                        </menu>
+                        <a href="#333.eco"><button>333.eco</button></a>
                         <h4>Research & Development</h4>
                         <menu>
-                            <li><a href="#backend-podcast">Podcast: Motivation & Coding Music</a></li>
-                            <li><a href="#backend-code">Interactive Coding Exercises</a></li>
-                            <li><a>Remote Pair Programming on Discord</a></li>
-                            <li><a>Students' Solo Projects on Replit</a></li>
+                            <li><a>Free Energy</a></li>
+                        </menu>
+                        <h4>Doctoral Dissertation</h4>
+                        <menu>
+                            <li><a>Quantum Intelligence</a></li>
                         </menu>
                     </div>
                 </li>
@@ -38,23 +34,23 @@ template.innerHTML = `
                     <div>
                         <h4>Instructor at Silicon Wat</h4>
                         <menu>
-                            <li><a>University</a></li>
-                            <li><a>Campus</a></li>
+                            <li><a href="#SiliconWat.com">University</a></li>
+                            <li><a href="#SiliconWat.org">Campus</a></li>
                         </menu>
                         <h4>Game Creator at THonly™</h4>
                         <menu>
-                            <li><a>Studios</a></li>
-                            <li><a>Metaverse</a></li>
+                            <li><a href="#THonly.com">Studios</a></li>
+                            <li><a href="#THonly.net">Metaverse</a></li>
                         </menu>
                         <h4>Organic Farmer at Nhia Kou</h4>
                         <menu>
-                            <li><a>Markets</a></li>
-                            <li><a>Orchards</a></li>
+                            <li><a href="#NhiaKou.com">Markets</a></li>
+                            <li><a href="#NhiaKou.org">Orchards</a></li>
                         </menu>
                         <h4>Founder at HeartBank®</h4>
                         <menu>
-                            <li><a>Subsidiaries</a></li>
-                            <li><a>Foundation</a></li>
+                            <li><a href="#HeartBank.com">Subsidiaries</a></li>
+                            <li><a href="#HeartBank.org">Foundation</a></li>
                         </menu>
                     </div>
                 </li>
@@ -63,19 +59,15 @@ template.innerHTML = `
                 <li>
                     <h3>Charity</h3>
                     <div>
-                        <a href="#ios-cohort"><button>Kiitos.Earth</button></a>
+                        <a href="#Kiitos.Earth"><button>Kiitos.Earth</button></a>
                         <h4>Dear Kiitos</h4>
                         <menu>
-                            <li><a>Watch Videos on Udemy</a></li>
-                            <li><a>Read Textbook on Medium</a></li>
-                            <li><a href="#ios-quiz">Take Quizzes to Check Understanding</a></li>
+                            <li><a>Zero Hero Equation</a></li>
                         </menu>
-                        <h4>Kitty for Charity</h4>
+                        <h4>Charity Kitty</h4>
                         <menu>
-                            <li><a href="#ios-podcast">Podcast: Motivation & Coding Music</a></li>
-                            <li><a href="#ios-code">Interactive Coding Exercises</a></li>
-                            <li><a>Remote Pair Programming on Discord</a></li>
-                            <li><a>Students' Solo Projects on GitHub</a></li>
+                            <li><a>Sports</a></li>
+                            <li><a>Metaverse</a></li>
                         </menu>
                     </div>
                 </li>

@@ -11,7 +11,7 @@ header {
 }
 
 section {
-	flex: 2;
+	flex: 3;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
@@ -52,6 +52,8 @@ a {
 
 img {
 	height: 5em;
+	border-radius: 50%;
+	transform: scale(-1, 1);
 }
 
 ul {
@@ -170,20 +172,8 @@ select {
 }
 
 @media (max-width: 480px) {
-	nav, aside {
+	aside {
 		display: none;
-	}
-
-	nav {
-		position: absolute;
-		flex-direction: column;
-		justify-content: center;
-		align-items: flex-start;
-		top: 100px;
-	}
-
-	figure {
-		display: block;
 	}
 
 	.menu-button-container {
@@ -191,11 +181,53 @@ select {
 		flex: 0.5;
 	}
 
-	#menu-toggle:checked ~ nav {
-		display: flex;
+	h3 {
+		color: white;
 	}
 
 	#menu-toggle ~ nav {
-		display: none;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+
+		position: absolute;
+		top: 100px;
+		left: 0;
+		z-index: 200;
+
+		box-sizing: border-box;
+		width: 100%;
+		padding-left: 30px;
+		padding-bottom: 25px;
+		background-color: var(--theme-color-1);
+
+		opacity: 0;
+		transition: opacity 0.5s ease-in-out;
+		animation: slideIn 0.5s ease-in-out;
+	}
+
+	#menu-toggle:checked ~ nav {
+		opacity: 1;
+		transition: opacity 0.5s ease-in-out;
+		animation: slideOut 0.5s ease-in-out;
+	}
+}
+
+@keyframes slideIn {
+	from {
+		transform: translateX(0);
+	}
+	to {
+		transform: translateX(100%);
+	}
+}
+
+@keyframes slideOut {
+	from {
+		transform: translateX(100%);
+	}
+	to {
+		transform: translateX(0);
 	}
 }
