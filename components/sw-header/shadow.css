@@ -2,6 +2,7 @@
 	color: var(--theme-color-1);
 	background-color: white;
 	padding: 10px;
+	font-size: medium;
 }
 
 header {

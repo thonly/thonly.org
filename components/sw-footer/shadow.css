@@ -1,6 +1,7 @@
 :host {
     background-color: var(--theme-color);
-    color: white;
+    color: #fffa;
+    font-size: small;
 }
 
 nav {
@@ -16,19 +17,65 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
 }
 
 section {
     flex: 1;
-    padding: 20px;
+    padding: 0 50px 20px 80px;
 }
 
 section:nth-of-type(2) {
-    border-left: 1px solid white;
-    border-right: 1px solid white;
+    border-left: 1px solid #fff4;
+    border-right: 1px solid #fff4;
 }
 
 footer {
     padding: 20px;
+}
+
+h5 {
+    color: #fffc;
+    font-size: 1.1em;
+    cursor: default;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+	margin: 0;
+	padding: 0;
+    padding-left: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+a:hover {
+    color: white;
+}
+
+li {
+    margin: 5px;
+}
+
+@media (max-width: 480px) {
+    main {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    section {
+        padding: 10px 0 30px;
+        width: 70%;
+    }
+
+    section:nth-of-type(2) {
+        border: none;
+        border-top: 1px solid #fff4;
+        border-bottom: 1px solid #fff4;
+    }
 }

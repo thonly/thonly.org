@@ -5,7 +5,7 @@ template.innerHTML = `
     <header>
         <section>
             <a href="/"><img src="thonly.jpg"></a>
-            <a href="/"><h1>Thon Ly</h1></a>
+            <a href="/"><h1 title="Pronounced: Tawn Lee">Thon Ly</h1></a>
         </section>
         <input id="menu-toggle" type="checkbox">
         <label class='menu-button-container' for="menu-toggle">
@@ -63,6 +63,7 @@ template.innerHTML = `
                         <h4>Dear Kiitos</h4>
                         <menu>
                             <li><a>Zero Hero Equation</a></li>
+                            <li><a>Non Zero-Sum Blockchain</a></li>
                         </menu>
                         <h4>Charity Kitty</h4>
                         <menu>
