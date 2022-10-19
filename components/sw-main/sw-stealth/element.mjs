@@ -77,10 +77,7 @@ class SwStealth extends HTMLElement {
     }
 
     #startIntervalCounter() {
-        setInterval( () => {
-            materialSVG = this.shadowRoot.getElementById('material-group')
-            materialSVG.classList.toggle('hidden')
-        }, 45000)
+        setInterval( () => this.shadowRoot.getElementById('material-group').classList.toggle('hidden'), 45000)
     }
 }
 

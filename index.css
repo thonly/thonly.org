@@ -23,7 +23,7 @@ body {
 main {
     display: grid;
     grid-template-rows: auto auto;
-    overflow: scroll;
+    overflow: hidden scroll;
 }
 
 sw-header {
@@ -36,6 +36,5 @@ sw-main {
 }
 
 sw-footer {
-    min-height: 20vh;
     --theme-color: var(--palette-color-3);
 }

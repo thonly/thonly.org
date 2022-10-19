@@ -7,6 +7,7 @@ template.innerHTML = `
             <div class="component-wrapper">
                 <aside>
                     <p>Currently in stealth development...</p>
+                    <br>
                     <a><button></button></a>
                 </aside>
                 <div class="sun"></div>
