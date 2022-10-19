@@ -36,5 +36,6 @@ sw-main {
 }
 
 sw-footer {
+    height: fit-content;
     --theme-color: var(--palette-color-3);
 }
