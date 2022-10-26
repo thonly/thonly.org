@@ -4,7 +4,7 @@ template.innerHTML = `
     <link rel="stylesheet" href="components/sw-header/shadow.css">
     <header>
         <section>
-            <a href="/"><img src="thonly.jpg"></a>
+            <a href="/"><img title="Location: Sequoia Treehouse in Fresno, CA" src="thonly.jpg"></a>
             <a href="/"><h1 title="Pronounced: Tawn Lee">Thon Ly</h1></a>
         </section>
         <input id="menu-toggle" type="checkbox">
@@ -57,7 +57,7 @@ template.innerHTML = `
             </ul>
             <ul>
                 <li>
-                    <h3>Charity</h3>
+                    <h3>Philanthropy</h3>
                     <div>
                         <a href="#Kiitos.Earth"><button>Kiitos.Earth</button></a>
                         <h4>Dear Kiitos</h4>

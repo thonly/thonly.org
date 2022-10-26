@@ -186,6 +186,17 @@ select {
 		color: white;
 	}
 
+	div {
+		top: 0;
+		right: 0;
+		opacity: 0;
+	}
+
+	ul:hover div {
+		opacity: 1;
+		transition: opacity 0.5s ease-in;
+	}
+
 	#menu-toggle ~ nav {
 		display: flex;
 		flex-direction: column;

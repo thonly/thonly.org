@@ -16,7 +16,7 @@ template.innerHTML = `
                 <ul>
                     <li><a href="https://economics.ucla.edu">Bachelor of Arts in Economics</a></li>
                     <li><a href="http://www.fullerton.edu/ecs">Master of Science in Software Engineering</a></li>
-                    <li><a href="https://www.eng.hawaii.edu">Doctor of Philosophy in Quantum Intelligence</a></li>
+                    <li><a href="https://www.eng.hawaii.edu">Doctor of Philosophy (in progress)</a></li>
                 </ul>
                 <h5>Credentials</h5>
                 <ul>

@@ -32,10 +32,9 @@ sw-header {
 }
 
 sw-main {
-    min-height: 100vh;
+    min-height: 90vh;
 }
 
 sw-footer {
-    height: fit-content;
     --theme-color: var(--palette-color-3);
 }
