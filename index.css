@@ -20,15 +20,15 @@ body {
     overflow: hidden;
 }
 
+sw-header {
+    --theme-color-1: var(--palette-color-1);
+    --theme-color-2: var(--palette-color-2);
+}
+
 main {
     display: grid;
     grid-template-rows: auto auto;
     overflow: hidden scroll;
-}
-
-sw-header {
-    --theme-color-1: var(--palette-color-1);
-    --theme-color-2: var(--palette-color-2);
 }
 
 sw-main {
