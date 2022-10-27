@@ -122,6 +122,19 @@ select {
 	border-color: currentColor;
 }
 
+button {
+	color: white;
+    background-color: var(--theme-color-2);
+    border-radius: 5px;
+	border: double 5px white;
+	padding: 3px 5px;
+}
+
+button:hover {
+	cursor: pointer;
+	border-color: var(--theme-color-2);
+}
+
 /*----------*/
 
 .menu-button-container {
