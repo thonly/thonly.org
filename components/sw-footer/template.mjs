@@ -56,7 +56,7 @@ template.innerHTML = `
             </section>
         </main>
         <footer>
-            <small>Thon Ly &copy; 2023</small>
+            <small><a href="https://github.com/thonly">Thon Ly</a> &copy; 2023</small>
         </footer>
     </nav>
 `;
