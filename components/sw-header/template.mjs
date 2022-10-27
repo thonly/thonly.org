@@ -24,6 +24,7 @@ template.innerHTML = `
                         </menu>
                         <h4>Doctoral Dissertation</h4>
                         <menu>
+                            <li><a>Zero-Point Mechanics</a></li>
                             <li><a>Quantum Intelligence</a></li>
                         </menu>
                     </div>
@@ -87,6 +88,7 @@ template.innerHTML = `
                         <menu>
                             <li><a>Ice Skating</a></li>
                             <li><a>Sepak Takraw</a></li>
+                            <li><a>Zero-Mind Martial Arts</a></li>
                         </menu>
                     </div>
                 </li>
