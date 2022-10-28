@@ -88,7 +88,7 @@ template.innerHTML = `
                         <menu>
                             <li><a>Ice Skating</a></li>
                             <li><a>Sepak Takraw</a></li>
-                            <li><a>Zero-Mind Martial Arts</a></li>
+                            <li><a>Zero-Mind Martial Art</a></li>
                         </menu>
                     </div>
                 </li>
