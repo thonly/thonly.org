@@ -28,10 +28,15 @@ template.innerHTML = `
             <section>
                 <h5>Music</h5>
                 <ul>
-                    <li><a href="https://www.youtube.com/c/ThonLy">YouTube</a></li>
+                    <li><a href="https://music.thonly.org">THonly</a></li>
                     <li><a href="https://soundcloud.com/thonly">SoundCloud</a></li>
                     <li><a href="https://flat.io/thonly">Flat</a></li>
-                    <li><a href="https://medium.com/@kiitos">Medium</a></li>
+                </ul>
+                <h5>Sports</h5>
+                <ul>
+                    <li><a href="https://kitty.kiitos.earth">Kitty Kiitos</a></li>
+                    <li><a href="https://www.youtube.com/c/ThonLy">YouTube</a></li>
+                    <li><a href="https://instagram.com/thon.ly">Instagram</a></li>
                 </ul>
                 <h5>Donate</h5>
                 <ul>
@@ -49,9 +54,9 @@ template.innerHTML = `
                 </ul>
                 <h5>Connect</h5>
                 <ul>
+                    <li><a href="https://talk.siliconwat.org">Silicon Wat</a></li>
                     <li><a href="https://twitter.com/thonly">Twitter</a></li>
                     <li><a href="https://www.facebook.com/thonly">Facebook</a></li>
-                    <li><a href="https://instagram.com/thon.ly">Instagram</a></li>
                 </ul>
             </section>
         </main>

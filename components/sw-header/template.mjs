@@ -19,6 +19,8 @@ template.innerHTML = `
                         <a href="#333.eco"><button>333.eco</button></a>
                         <h4>Research & Development</h4>
                         <menu>
+                            <!--<li><a>Micro Wallet</a></li>
+                            <li><a>Metaverse Gear</a></li>-->
                             <li><a>Free Internet</a></li>
                             <li><a>Free Energy</a></li>
                         </menu>
@@ -67,7 +69,7 @@ template.innerHTML = `
                             <li><a>Zero Hero Equation</a></li>
                             <li><a>Non Zero-Sum Blockchain</a></li>
                         </menu>
-                        <h4>Charity Kitty</h4>
+                        <h4>Kitty Kiitos</h4>
                         <menu>
                             <li><a>Sports</a></li>
                             <li><a>Metaverse</a></li>
