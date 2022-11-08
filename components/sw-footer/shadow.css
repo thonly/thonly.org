@@ -2,7 +2,6 @@
     background-color: var(--theme-color);
     color: #fffa;
     font-size: small;
-    height: fit-content;
 }
 
 nav {
@@ -29,6 +28,8 @@ section {
 section:nth-of-type(2) {
     border-left: 1px solid #fff4;
     border-right: 1px solid #fff4;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 footer {
@@ -78,5 +79,14 @@ li {
         border: none;
         border-top: 1px solid #fff4;
         border-bottom: 1px solid #fff4;
+    }
+
+    section:last-child {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    section:last-child div:last-child {
+        order: -1;
     }
 }
