@@ -9,7 +9,8 @@ main {
     z-index: 100;
     margin-top: 5%;
     width: 100%;
-    text-align: center;
+    text-align: left;
+    margin-left: 5%;
 }
 
 button {
@@ -20,6 +21,6 @@ button {
 
 @media (max-width: 480px) {
     main {
-        margin-top: 50%;
+        margin-top: 80%;
     }
 }
