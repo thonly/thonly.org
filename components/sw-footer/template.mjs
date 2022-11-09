@@ -47,17 +47,17 @@ template.innerHTML = `
                     </ul>
                 </div>
                 <div>
+                    <h5>Thank</h5>
+                    <ul>
+                    <li><a href="https://kitty.kiitos.earth">Dear Kiitos</a></li>
+                    </ul>
+                </div>
+                <div>
                     <h5>Donate</h5>
                     <ul>
                         <li><a href="https://heartbank.me">HeartBank</a></li>
                         <li><a href="https://github.com/sponsors/thonly">GitHub</a></li>
                         <li><a href="https://paypal.me/thonly">PayPal</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h5>Thank</h5>
-                    <ul>
-                    <li><a href="https://kitty.kiitos.earth">Dear Kiitos</a></li>
                     </ul>
                 </div>
             </section>
