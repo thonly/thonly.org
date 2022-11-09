@@ -12,3 +12,9 @@ video {
 slot {
     color: white;
 }
+
+@media (max-width: 480px) {
+    video {
+        margin-top: -50%;
+    }
+}
