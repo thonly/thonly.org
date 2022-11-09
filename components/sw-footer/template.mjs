@@ -54,6 +54,12 @@ template.innerHTML = `
                         <li><a href="https://paypal.me/thonly">PayPal</a></li>
                     </ul>
                 </div>
+                <div>
+                    <h5>Thank</h5>
+                    <ul>
+                    <li><a href="https://kitty.kiitos.earth">Dear Kiitos</a></li>
+                    </ul>
+                </div>
             </section>
             <section>
                 <div>
