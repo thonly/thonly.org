@@ -17,7 +17,6 @@ template.innerHTML = `
         @media (max-width: 480px) {
             section:last-child {
                 display: grid;
-                grid-template-columns: 1fr 1fr;
             }
 
             section:last-child div:last-child {
