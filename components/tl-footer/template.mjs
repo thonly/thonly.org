@@ -9,6 +9,22 @@ const template = document.createElement("template");
 
 template.innerHTML = `
     <link rel="stylesheet" href="components/tl-footer/shadow.css">
+    <style>
+        section:last-child {
+            display: block;
+        }
+        
+        @media (max-width: 480px) {
+            section:last-child {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+            }
+
+            section:last-child div:last-child {
+                order: -1;
+            }
+        }
+    </style>
     <nav>
         <main>
             <section>

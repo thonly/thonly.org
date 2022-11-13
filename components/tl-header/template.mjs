@@ -2,6 +2,18 @@ const template = document.createElement("template");
 
 template.innerHTML = `
     <link rel="stylesheet" href="components/tl-header/shadow.css">
+    <style>
+        img {
+            border-radius: 50%;
+            transform: scale(-1, 1);
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 2.5em;
+            }
+        }
+    </style>
     <header>
         <section>
             <a href="/"><img title="Location: Sequoia Treehouse in Fresno, CA" src="components/tl-header/thonly.jpg"></a>
