@@ -88,7 +88,8 @@ template.innerHTML = `
                 <nav>
                     <h4>Music</h4>
                     <menu>
-                        <li><a>Coding Music Podcast</a></li>
+                        <li><a>Coding Music Station</a></li>
+                        <li><a>Code of Success Podcast</a></li>
                         <li><a>Sinn Sisamouth Music Library</a></li>
                     </menu>
                     <h4>Sports</h4>
