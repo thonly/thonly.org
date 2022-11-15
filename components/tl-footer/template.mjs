@@ -1,3 +1,4 @@
+import "./tl-donors/element.mjs";
 const template = document.createElement("template");
 
 //TODO: later showcase github sponsors here?
@@ -10,17 +11,15 @@ const template = document.createElement("template");
 template.innerHTML = `
     <link rel="stylesheet" href="components/tl-footer/shadow.css">
     <style>
-        section:last-child {
-            display: block;
-        }
-        
         @media (max-width: 480px) {
-            section:last-child {
-                display: grid;
+            section:last-child tl-donors {
+                grid-column: 1 / span 2;
+                grid-row: 1 / 1;
             }
-
-            section:last-child div:last-child {
-                order: -1;
+            
+            section:last-child div:first-child {
+                grid-column: 2 / 2;
+                grid-row: 2 / 2;
             }
         }
     </style>
@@ -93,6 +92,7 @@ template.innerHTML = `
                         <li><a href="https://www.facebook.com/thonly">Facebook</a></li>
                     </ul>
                 </div>
+                <tl-donors></tl-donors>
             </section>
         </main>
         <footer>
