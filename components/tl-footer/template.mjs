@@ -12,6 +12,14 @@ template.innerHTML = `
     <link rel="stylesheet" href="components/tl-footer/shadow.css">
     <style>
         @media (max-width: 480px) {
+            section:first-child {
+                order: 1;
+            }
+
+            section:last-child {
+                order: -1;
+            }
+
             section:last-child tl-donors {
                 grid-column: 1 / span 2;
                 grid-row: 1 / 1;
