@@ -63,7 +63,7 @@ template.innerHTML = `
                 <div>
                     <h5>Sports</h5>
                     <ul>
-                        <li><a href="https://kitty.kiitos.earth">Kitty Kiitos</a></li>
+                        <li><a href="https://kitty.kiitos.earth/#ThonLy">Kiitos</a></li>
                         <li><a href="https://www.youtube.com/@ThonLy">YouTube</a></li>
                         <li><a href="https://instagram.com/thon.ly">Instagram</a></li>
                     </ul>
@@ -71,13 +71,13 @@ template.innerHTML = `
                 <div>
                     <h5>Thank</h5>
                     <ul>
-                    <li><a href="https://kitty.kiitos.earth">Dear Kiitos</a></li>
+                    <li><a href="https://dear.kiitos.earth/#ThonLy">Kiitos</a></li>
                     </ul>
                 </div>
                 <div>
                     <h5>Donate</h5>
                     <ul>
-                        <li><a href="https://heartbank.me">HeartBank</a></li>
+                        <li><a href="https://heartbank.me/#ThonLy">HeartBank</a></li>
                         <li><a href="https://github.com/sponsors/thonly">GitHub</a></li>
                         <li><a href="https://paypal.me/thonly">PayPal</a></li>
                     </ul>
@@ -95,7 +95,7 @@ template.innerHTML = `
                 <div>
                     <h5>Connect</h5>
                     <ul>
-                        <li><a href="https://talk.siliconwat.org">Silicon Wat</a></li>
+                        <li><a href="https://me.thonly.net/#ThonLy">THonly</a></li>
                         <li><a href="https://twitter.com/thonly">Twitter</a></li>
                         <li><a href="https://www.facebook.com/thonly">Facebook</a></li>
                     </ul>
