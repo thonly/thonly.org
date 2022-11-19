@@ -1,9 +1,9 @@
-import { THONLY } from "/global.mjs";
+import { ORIGIN } from "/global.mjs";
 const template = document.createElement("template");
 
 template.innerHTML = `
-    <link rel="stylesheet" href="${THONLY}/components/tl-footer/shadow.css">
-    <link rel="stylesheet" href="${THONLY}/components/tl-footer/tl-donors/shadow.css">
+    <link rel="stylesheet" href="${ORIGIN}/components/tl-footer/shadow.css">
+    <link rel="stylesheet" href="${ORIGIN}/components/tl-footer/tl-donors/shadow.css">
     <h5>Donors</h5>
     <ul class="donors">
         <li><a href="https://github.com/panhiathao"><img src="https://github.com/panhiathao.png?size=100"></a></li>
