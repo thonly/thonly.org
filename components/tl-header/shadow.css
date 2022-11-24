@@ -157,6 +157,14 @@ li.cohort {
 	color: purple;
 }
 
+button.coin {
+	background-color: orangered;
+}
+
+li.coin {
+	color: orangered;
+}
+
 /*----------*/
 
 .menu-button-container {
