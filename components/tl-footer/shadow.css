@@ -85,6 +85,10 @@ ul.donors {
     flex-direction: row;
 }
 
+#frontend, #backend, #ios {
+    display: none;
+}
+
 @media (max-width: 480px) {
     main {
         flex-direction: column;
