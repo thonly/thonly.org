@@ -88,8 +88,8 @@ template.innerHTML = `
                 <nav>
                     <h4>Music</h4>
                     <menu>
-                        <li><a href="#radio.thonly.org">Coding Music Radio Station</a></li>
                         <li><a href="#podcast.thonly.org">The Code of Success Podcast</a></li>
+                        <li><a href="#radio.thonly.org">Coding Music Radio Station</a></li>
                         <li><a href="#music.thonly.org">Sinn Sisamouth Music Library</a></li>
                     </menu>
                     <h4>Sports</h4>
