@@ -1,13 +1,6 @@
 import "./tl-donors/element.mjs";
 const template = document.createElement("template");
 
-//TODO: later showcase github sponsors here?
-
-/*
-    update medium tip link to here; later to hb.me
-    edit medium about to here
- */
-
 template.innerHTML = `
     <link rel="stylesheet" href="components/tl-footer/shadow.css">
     <style>
