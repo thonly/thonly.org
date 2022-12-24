@@ -34,11 +34,13 @@ template.innerHTML = `
                         <li><a>Metaverse Gear</a></li>-->
                         <li><a>Free Internet</a></li>
                         <li><a>Free Energy</a></li>
+                        <li><a>Zero-Point Mechanics</a></li>
                     </menu>
                     <h4>Doctoral Dissertation</h4>
                     <menu>
-                        <li><a>Zero-Point Mechanics</a></li>
+                        <li><a>Artificial Intelligence</a></li>
                         <li><a>Quantum Intelligence</a></li>
+                        <li><a>Enlightened Intelligence</a></li>
                     </menu>
                 </nav>
             </li>
