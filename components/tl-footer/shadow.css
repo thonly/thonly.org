@@ -75,16 +75,6 @@ li {
     margin: 5px;
 }
 
-img {
-    border-radius: 50%;
-    height: 30px;
-}
-
-ul.donors {
-    display: flex;
-    flex-direction: row;
-}
-
 #frontend, #backend, #ios {
     display: none;
 }

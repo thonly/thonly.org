@@ -2,7 +2,6 @@ import { ORIGIN } from "/global.mjs";
 const template = document.createElement("template");
 
 template.innerHTML = `
-    <link rel="stylesheet" href="${ORIGIN}/components/tl-footer/shadow.css">
     <link rel="stylesheet" href="${ORIGIN}/components/tl-footer/tl-donors/shadow.css">
     <h5>Donors</h5>
     <ul class="donors">

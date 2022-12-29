@@ -2,3 +2,37 @@
     display: none;
     padding-top: 0;
 }
+
+h5 {
+    color: #fffc;
+    font-size: 1.1em;
+    cursor: default;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+	margin: 0;
+	padding: 0;
+    padding-left: 5px;
+}
+
+ul.donors {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    margin: 5px;
+}
+
+img {
+    border-radius: 50%;
+    height: 30px;
+}
+
+@media (max-width: 480px) {
+    ul.donors {
+        justify-content: center;
+    }
+}
