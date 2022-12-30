@@ -169,7 +169,7 @@ li.coin {
 	cursor: pointer;
 	flex-direction: column;
 	justify-content: center;
-	align-items: flex-end;
+	align-items: center;
 	width: 50px;
 	height: 50px;
 }
