@@ -13,6 +13,7 @@ class TlMain extends HTMLElement {
     connectedCallback() {
         this.style.display = 'block';
         this.#render();
+        setTimeout(() => document.body.scrollIntoView({ behavior: "smooth", block: "start", inline: "center" }), 300);
     }
 
     #render() {
