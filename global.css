@@ -21,13 +21,13 @@ header {
 
 main {
     margin-top: 105px;
+    overflow: hidden;
 }
 
 main.trilogy {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    overflow: hidden scroll;
 }
 
 footer {
