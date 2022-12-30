@@ -23,6 +23,13 @@ main {
     margin-top: 105px;
 }
 
+main.trilogy {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden scroll;
+}
+
 footer {
     background-color: var(--palette-color-5);
     padding-top: 40px;
