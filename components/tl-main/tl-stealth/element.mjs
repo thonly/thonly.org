@@ -8,7 +8,6 @@ class TlStealth extends HTMLElement {
     }
 
     render(origin) {
-        this.style.display = 'block';
         const a = this.shadowRoot.querySelector('a');
         const button = this.shadowRoot.querySelector('button');
 
@@ -18,6 +17,8 @@ class TlStealth extends HTMLElement {
         } else {
             a.style.display = 'none';
         }
+
+        this.style.display = 'block';
     }
 }
 
