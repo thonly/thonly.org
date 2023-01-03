@@ -34,7 +34,7 @@ template.innerHTML = `
                         <li><a>Metaverse Gear</a></li>-->
                         <li><a>Free Internet</a></li>
                         <li><a>Free Energy</a></li>
-                        <li><a>Zero-Point Mechanics</a></li>
+                        <li><a>Zero-Point Physics</a></li>
                     </menu>
                     <h4>Doctoral Dissertation</h4>
                     <menu>
