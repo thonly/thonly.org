@@ -31,7 +31,6 @@ main.trilogy {
 }
 
 footer {
-    background-color: var(--palette-color-5);
     padding-top: 40px;
     overflow: hidden;
 }
