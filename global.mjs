@@ -55,10 +55,10 @@ export const HOME = (() => {
 export const BACKGROUND = "radial-gradient(circle at bottom left, hsla(161, 80%, 45%, 1) 0%, hsla(215, 80%, 45%, 1) 100%)";
 
 export const DEVICE = (() => {
-    if (navigator.userAgent.includes("iPhone")) return ['iphone', `${THONLY}/images/ios.svg`]
-    else if (navigator.userAgent.includes("iPad")) return ['ipad', `${THONLY}/images/ios.svg`]
-    else if (navigator.userAgent.includes("Android")) return ['android', `${THONLY}/images/android.svg`]
-    else if (navigator.userAgent.includes("Macintosh")) return ['mac', `${THONLY}/images/mac.svg`]
+    if (navigator.userAgent.includes("iPhone")) return ['iphone', `${THONLY}/images/ios.svg`, "Download on the iPhone App Store"]
+    else if (navigator.userAgent.includes("iPad")) return ['ipad', `${THONLY}/images/ios.svg`, "Download on the iPad App Store"]
+    else if (navigator.userAgent.includes("Android")) return ['android', `${THONLY}/images/android.svg`, "Download on the Google Play Store"]
+    else if (navigator.userAgent.includes("Macintosh")) return ['mac', `${THONLY}/images/mac.svg`, "Download on the Mac App Store"]
     else return ['pc', `${THONLY}/images/chrome.svg`];
 })();
 
