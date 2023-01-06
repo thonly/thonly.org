@@ -7,10 +7,10 @@
 main {
     position: absolute;
     z-index: 100;
-    margin-top: 5%;
     width: 100%;
     text-align: left;
-    margin-left: 5%;
+    margin-top: 70px;
+    margin-left: 50px;
 }
 
 button {
@@ -33,7 +33,7 @@ svg {
 
 @media (max-width: 480px) {
     main {
-        margin-top: 80%;
+        margin-top: 75%;
         margin-left: 0;
         text-align: center;
     }

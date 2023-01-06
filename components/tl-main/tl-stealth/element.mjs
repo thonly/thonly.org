@@ -9,15 +9,8 @@ class TlStealth extends HTMLElement {
 
     render(origin) {
         const a = this.shadowRoot.querySelector('a');
-        const button = this.shadowRoot.querySelector('button');
-
-        if (origin) {
-            a.href = "https://" + origin;
-            button.textContent = origin;
-        } else {
-            a.style.display = 'none';
-        }
-
+        a.href = origin ? "https://" + origin : "https://twitter.com/thonly";
+        a.firstElementChild.innerHTML = origin || "<b>Follow</b> for real-time updates!";
         this.style.display = 'block';
     }
 }
