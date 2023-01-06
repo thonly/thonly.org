@@ -91,6 +91,7 @@ template.innerHTML = `
                         <li><a href="https://me.thonly.net/#ThonLy">THonly</a></li>
                         <li><a href="https://twitter.com/thonly">Twitter</a></li>
                         <li><a href="https://www.facebook.com/thonly">Facebook</a></li>
+                        <li><a href="https://medium.com/@kiitos">Medium</a></li>
                     </ul>
                 </div>
                 <tl-donors></tl-donors>
