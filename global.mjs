@@ -54,12 +54,29 @@ export const HOME = (() => {
 // showcase
 export const BACKGROUND = "radial-gradient(circle at bottom left, hsla(161, 80%, 45%, 1) 0%, hsla(215, 80%, 45%, 1) 100%)";
 
-export const DEVICE = (() => {
-    if (navigator.userAgent.includes("iPhone")) return ['iphone', `${THONLY}/images/ios.svg`, "Download on the iPhone App Store"]
-    else if (navigator.userAgent.includes("iPad")) return ['ipad', `${THONLY}/images/ios.svg`, "Download on the iPad App Store"]
-    else if (navigator.userAgent.includes("Android")) return ['android', `${THONLY}/images/android.svg`, "Download on the Google Play Store"]
-    else if (navigator.userAgent.includes("Macintosh")) return ['mac', `${THONLY}/images/mac.svg`, "Download on the Mac App Store"]
-    else return ['pc', `${THONLY}/images/chrome.svg`];
-})();
+export const DEVICES = {
+    ios: {
+        image: `${THONLY}/images/ios.svg`,
+        description: "Download on the App Store"
+    },
+    android: {
+        image: `${THONLY}/images/android.svg`,
+        description: "Download on the Google Play Store"
+    },
+    mac: {
+        image: `${THONLY}/images/mac.svg`,
+        description: "Install MacOS App"
+    },
+    chrome: {
+        image: `${THONLY}/images/chrome.svg`,
+        description: "Install Chrome App"
+    }
+};
 
-console.log(navigator.userAgent)
+export const DEVICE = (() => {
+    if (navigator.userAgent.includes("iPhone")) return ['iphone', DEVICES.ios]
+    else if (navigator.userAgent.includes("iPad")) return ['ipad', DEVICES.ios]
+    else if (navigator.userAgent.includes("Android")) return ['android', DEVICES.android]
+    else if (navigator.userAgent.includes("Macintosh")) return ['mac', DEVICES.mac]
+    else return ['pc', DEVICES.chrome];
+})();
