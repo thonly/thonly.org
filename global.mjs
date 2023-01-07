@@ -92,6 +92,6 @@ export const DEVICES = {
 export const DEVICE = (() => {
     if (navigator.userAgent.includes("iPhone") || navigator.userAgent.includes("iPad")) return ['ios', DEVICES.iOS, DEVICES.ios]
     else if (navigator.userAgent.includes("Android")) return ['android', DEVICES.Android, DEVICES.android]
-    else if (navigator.userAgent.includes("Macintosh")) return ['mac', DEVICES.Mac, DEVICES.mac]
-    else return ['pc', DEVICES.PC, DEVICES.pc];
+    else if (navigator.userAgent.includes("Macintosh")) return ['mac', DEVICES.mac, DEVICES.mac]
+    else return ['pc', DEVICES.pc, DEVICES.pc];
 })();
