@@ -58,22 +58,22 @@ export const DEVICES = {
     ios: {
         image: `${THONLY}/images/ios.svg`,
         description: "Download on the App Store",
-        download: ""
+        download: null
     },
     android: {
         image: `${THONLY}/images/android.svg`,
         description: "Download on the Google Play Store",
-        download: ""
+        download: null
     },
     mac: {
         image: `${THONLY}/images/mac.svg`,
         description: "Install MacOS App",
-        download: ""
+        download: null
     },
     chrome: {
         image: `${THONLY}/images/chrome.svg`,
         description: "Install Chrome App",
-        download: ""
+        download: null
     }
 };
 
