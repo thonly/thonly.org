@@ -90,9 +90,8 @@ export const DEVICES = {
 };
 
 export const DEVICE = (() => {
-    if (navigator.userAgent.includes("iPhone")) return ['iphone', DEVICES.iOS]
-    else if (navigator.userAgent.includes("iPad")) return ['ipad', DEVICES.iOS]
-    else if (navigator.userAgent.includes("Android")) return ['android', DEVICES.Android]
-    else if (navigator.userAgent.includes("Macintosh")) return ['mac', DEVICES.mac]
-    else return ['pc', DEVICES.pc];
+    if (navigator.userAgent.includes("iPhone") || navigator.userAgent.includes("iPad")) return ['ios', DEVICES.iOS, DEVICES.ios]
+    else if (navigator.userAgent.includes("Android")) return ['android', DEVICES.Android, DEVICES.android]
+    else if (navigator.userAgent.includes("Macintosh")) return ['mac', DEVICES.Mac, DEVICES.mac]
+    else return ['pc', DEVICES.PC, DEVICES.pc];
 })();
