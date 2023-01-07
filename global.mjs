@@ -55,14 +55,26 @@ export const HOME = (() => {
 export const BACKGROUND = "radial-gradient(circle at bottom left, hsla(161, 80%, 45%, 1) 0%, hsla(215, 80%, 45%, 1) 100%)";
 
 export const DEVICES = {
-    ios: {
+    iOS: {
         image: `${THONLY}/images/ios.svg`,
         description: "Download on the App Store",
         download: null
     },
-    android: {
+    Android: {
         image: `${THONLY}/images/android.svg`,
         description: "Download on the Google Play Store",
+        download: null
+    },
+    Mac: null,
+    PC: null,
+    ios: {
+        image: `${THONLY}/images/ios-home.svg`,
+        description: "Add to Home Screen",
+        download: null
+    },
+    android: {
+        image: `${THONLY}/images/android-home.svg`,
+        description: "Add to Home Screen",
         download: null
     },
     mac: {
@@ -70,7 +82,7 @@ export const DEVICES = {
         description: "Install MacOS App",
         download: null
     },
-    chrome: {
+    pc: {
         image: `${THONLY}/images/chrome.svg`,
         description: "Install Chrome App",
         download: null
@@ -78,9 +90,9 @@ export const DEVICES = {
 };
 
 export const DEVICE = (() => {
-    if (navigator.userAgent.includes("iPhone")) return ['iphone', DEVICES.ios]
-    else if (navigator.userAgent.includes("iPad")) return ['ipad', DEVICES.ios]
-    else if (navigator.userAgent.includes("Android")) return ['android', DEVICES.android]
+    if (navigator.userAgent.includes("iPhone")) return ['iphone', DEVICES.iOS]
+    else if (navigator.userAgent.includes("iPad")) return ['ipad', DEVICES.iOS]
+    else if (navigator.userAgent.includes("Android")) return ['android', DEVICES.Android]
     else if (navigator.userAgent.includes("Macintosh")) return ['mac', DEVICES.mac]
-    else return ['pc', DEVICES.chrome];
+    else return ['pc', DEVICES.pc];
 })();
