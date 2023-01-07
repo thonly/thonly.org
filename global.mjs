@@ -57,19 +57,23 @@ export const BACKGROUND = "radial-gradient(circle at bottom left, hsla(161, 80%,
 export const DEVICES = {
     ios: {
         image: `${THONLY}/images/ios.svg`,
-        description: "Download on the App Store"
+        description: "Download on the App Store",
+        download: ""
     },
     android: {
         image: `${THONLY}/images/android.svg`,
-        description: "Download on the Google Play Store"
+        description: "Download on the Google Play Store",
+        download: ""
     },
     mac: {
         image: `${THONLY}/images/mac.svg`,
-        description: "Install MacOS App"
+        description: "Install MacOS App",
+        download: ""
     },
     chrome: {
         image: `${THONLY}/images/chrome.svg`,
-        description: "Install Chrome App"
+        description: "Install Chrome App",
+        download: ""
     }
 };
 
