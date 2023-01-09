@@ -4,6 +4,13 @@ const template = document.createElement("template");
 template.innerHTML = `
     <link rel="stylesheet" href="components/tl-footer/shadow.css">
     <style>
+        button {
+            margin-top: 40px;
+            margin-bottom: 20px;
+            font-weight: bold;
+            font-size: larger;
+        }
+
         @media (max-width: 480px) {
             section:first-child {
                 order: 1;
@@ -16,6 +23,10 @@ template.innerHTML = `
             section:last-child tl-donors {
                 grid-column: 1 / span 2;
                 grid-row: 1 / 1;
+            }
+
+            section:last-child a {
+                grid-column: 1 / span 2;
             }
             
             section:last-child div:first-child {
@@ -72,7 +83,7 @@ template.innerHTML = `
                     <ul>
                         <li><a href="https://heartbank.me/#ThonLy">HeartBank</a></li>
                         <li><a href="https://github.com/sponsors/thonly">GitHub</a></li>
-                        <li><a href="https://paypal.me/thonly">PayPal</a></li>
+                        <!--<li><a href="https://paypal.me/thonly">PayPal</a></li>-->
                     </ul>
                 </div>
             </section>
@@ -95,6 +106,7 @@ template.innerHTML = `
                     </ul>
                 </div>
                 <tl-donors></tl-donors>
+                <a href="https://calendar.thonly.org"><button>Book Meeting</button></a>
             </section>
         </main>
         <footer>
