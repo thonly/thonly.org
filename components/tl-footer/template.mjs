@@ -83,6 +83,7 @@ template.innerHTML = `
                     <ul>
                         <li><a href="https://heartbank.me/#ThonLy">HeartBank</a></li>
                         <li><a href="https://github.com/sponsors/thonly">GitHub</a></li>
+                        <li><a href="https://medium.com/@thonly/membership">Medium</a></li>
                         <!--<li><a href="https://paypal.me/thonly">PayPal</a></li>-->
                     </ul>
                 </div>
