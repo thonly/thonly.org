@@ -47,6 +47,7 @@ template.innerHTML = `
             <li>
                 <h3>Work</h3>
                 <nav>
+                    <a href="#me.thonly.org"><button>Business Card</button></a>
                     <h4>Instructor at Silicon Wat</h4>
                     <menu>
                         <li><a href="#SiliconWat.com">University</a></li>
@@ -89,6 +90,7 @@ template.innerHTML = `
             <li>
                 <h3>Meditation</h3>
                 <nav>
+                    <a href="#meditation.thonly.org"><button>Zero Mind</button></a>
                     <h4>Music</h4>
                     <menu>
                         <li><a href="#podcast.thonly.org">The Code of Success Podcast</a></li>
@@ -99,7 +101,7 @@ template.innerHTML = `
                     <menu>
                         <li><a>Ice Skating</a></li>
                         <li><a>Sepak Takraw</a></li>
-                        <li><a>Zero-Mind Martial Art</a></li>
+                        <li><a>Kendo</a></li>
                     </menu>
                 </nav>
             </li>
