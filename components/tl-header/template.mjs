@@ -90,7 +90,7 @@ template.innerHTML = `
             <li>
                 <h3>Meditation</h3>
                 <nav>
-                    <a href="#meditation.thonly.org"><button>Zero Mind</button></a>
+                    <a href="#zero.thonly.org"><button>Zero Mind</button></a>
                     <h4>Music</h4>
                     <menu>
                         <li><a href="#podcast.thonly.org">The Code of Success Podcast</a></li>
@@ -99,9 +99,9 @@ template.innerHTML = `
                     </menu>
                     <h4>Sports</h4>
                     <menu>
-                        <li><a>Ice Skating</a></li>
-                        <li><a>Sepak Takraw</a></li>
                         <li><a>Kendo</a></li>
+                        <li><a>Sepak Takraw</a></li>
+                        <li><a>Ice Skating</a></li>
                     </menu>
                 </nav>
             </li>
