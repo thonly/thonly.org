@@ -1,6 +1,8 @@
 import template from './template.mjs';
 
 class TlKiitos extends HTMLElement {
+    #kiitos;
+
     constructor() {
         super();
         this.attachShadow({ mode: "open" });
@@ -8,8 +10,21 @@ class TlKiitos extends HTMLElement {
     }
 
     connectedCallback() {
-        const p = this.shadowRoot.querySelector('p');
+        this.shadowRoot.getElementById('reset').onclick = event => this.render(this.#kiitos);
+        this.shadowRoot.getElementById('power').onclick = event => document.location.hash = "";
+    }
+
+    render(kiitos) {
+        this.#kiitos = kiitos;
+
+        const a = this.shadowRoot.getElementById('action');
+        a.href = kiitos.href;
+        a.firstElementChild.innerHTML = kiitos.button;
+
+        const p = document.createElement('p');
+        p.innerHTML = kiitos.chat;
         p.style.setProperty('--n', p.innerText.length);
+        this.shadowRoot.getElementById('text').replaceChildren(p);
     }
 }
 

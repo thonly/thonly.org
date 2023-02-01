@@ -5,7 +5,7 @@ const template = document.createElement("template");
 
 template.innerHTML = `
     <link rel="stylesheet" href="components/tl-main/tl-kiitos/shadow.css">
-	<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+	<svg version="1.1" id="laptop" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
 		<g>
 			<path id="stand" fill="#E8EDEECC" d="M361.931,494.345H150.069c0-19.5,15.81-35.31,35.31-35.31h141.241
 				C346.121,459.034,361.931,474.845,361.931,494.345" />
@@ -71,12 +71,14 @@ template.innerHTML = `
 			</g>
 			<polygon id="yellowBox" style="fill:#ECBA16;" points="79.448,176.552 203.034,176.552 203.034,52.966 79.448,52.966 	" />-->
 		</g>
-		<foreignObject id="text" x="20" y="50" width="480" height="230">
-			<p>Lorem Ipsum is simply dummy</p>
+		<foreignObject id="text" x="20" y="50" width="480" height="230"></foreignObject>
+		<foreignObject id="button" x="25" y="322" width="460" height="200">
+			<a id="action"><button></button></a>
 		</foreignObject>
-		<foreignObject id="button" x="20" y="320" width="460" height="50">
-			<button>Hello</button>
-		</foreignObject>
+		<circle id="reset" cx="30" cy="340" r="25" stroke="#27C93F"/>
+		<circle id="power" cx="30" cy="340" r="25" stroke="#27C93F"/>
+		<!--<svg id="reset" xmlns="http://www.w3.org/2000/svg" x="30" y="340" width="24" height="24" viewBox="0 0 24 24" fill="transparent" stroke="#27C93F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="feather feather-refresh-cw"><polyline points="23 4 23 10 17 10"></polyline><polyline points="1 20 1 14 7 14"></polyline><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path></svg>
+		<svg id="power" xmlns="http://www.w3.org/2000/svg" x="460" y="340" width="24" height="24" viewBox="0 0 24 24" fill="transparent" stroke="#FF5F56" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="feather feather-power"><path d="M18.36 6.64a9 9 0 1 1-12.73 0"></path><line x1="12" y1="2" x2="12" y2="12"></line></svg>-->
 	</svg>
 `;
 

@@ -16,8 +16,8 @@ template.innerHTML = `
     </style>
     <header>
         <section>
-            <a href="/"><img title="Location: Sequoia Treehouse in Fresno, CA" src="components/tl-header/thonly.jpg"></a>
-            <a href="/"><h1 title="Pronounced: Tawn Lee">Thon Ly</h1></a>
+            <a href="#"><img title="Location: Sequoia Treehouse in Fresno, CA" src="components/tl-header/thonly.jpg"></a>
+            <h1 title="Pronounced: Tawn Lee">Thon Ly</h1>
         </section>
         <input id="menu-toggle" type="checkbox">
         <label class='menu-button-container' for="menu-toggle">
@@ -93,7 +93,7 @@ template.innerHTML = `
                     <a href="#zero.thonly.org"><button>Zero Joy Love</button></a>
                     <h4>Music</h4>
                     <menu>
-                        <li><a href="#podcast.thonly.org">The Code of Success Podcast</a></li>
+                        <li><a href="#podcast">The Code of Success Podcast</a></li>
                         <li><a href="#radio.thonly.org">Coding Music Radio Station</a></li>
                         <li><a href="#music.thonly.org">Sinn Sisamouth Music Library</a></li>
                     </menu>

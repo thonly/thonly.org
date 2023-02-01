@@ -2,7 +2,7 @@
     font-size: medium;
 }
 
-svg {
+#laptop {
   height: 600px;
 }
 
@@ -29,31 +29,7 @@ p {
   background-clip: padding-box, text;
   -webkit-background-clip: padding-box, text;
   background-repeat: no-repeat;
-  animation: blinking .7s infinite steps(1), typing calc(var(--n)/10*.3s) steps(var(--n)) forwards;
-}
-
-button {
-  display: inline-block;
-  margin: 0.75rem;
-  padding: 0.75rem 1.5rem;
-  border: none;
-  border-radius: 0.1875rem;
-  outline: none;
-  background-color: tomato;
-  color: white;
-  font-family: inherit;
-  font-size: 1.25em;
-  font-weight: 400;
-  line-height: 1.5rem;
-  text-decoration: none;
-  text-align: center;
-  cursor: pointer;
-  transition: all 150ms ease-out;
-}
-
-button:hover {
-  background-color: #ff7359;
-  box-shadow: 0 0 0 0.1875rem white, 0 0 0 0.375rem #ff7359;
+  animation: blinking .7s infinite steps(1), typing calc(var(--n)/5*.3s) steps(var(--n)) forwards;
 }
 
 p::after {
@@ -62,18 +38,30 @@ p::after {
   margin-left: 5px;
   height: 18px;
   width: 5px;
-  background-color: white;
-  animation: blink-caret 0.5s step-end infinite;
+  animation: caret 0.5s step-end infinite calc((var(--n))/5*.3s);
 }
 
-@keyframes blink-caret {
-  from, to {
-    background-color: transparent;
-  }
+button {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  background-color: #FFBD2DDD;
+  color: white;
+  font-size: large;
+  cursor: pointer;
+  letter-spacing: 2px;
+  transition: all 150ms ease-out;
+  margin: 10px;
+}
 
-  50% {
-    background-color: white;
-  }
+button:hover {
+  outline: 4px solid white;
+}
+
+#reset, #power {
+  cursor: pointer;
 }
 
 @keyframes typing {
@@ -88,6 +76,18 @@ p::after {
   }
 }
 
+@keyframes caret {
+  from, to {
+    background-color: transparent;
+  }
+
+  50% {
+    background-color: white;
+  }
+}
+
 @media (max-width: 480px) {
-    
+  #laptop {
+    height: 300px;
+  }
 }
