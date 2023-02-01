@@ -20,6 +20,7 @@ class TlKiitos extends HTMLElement {
         const a = this.shadowRoot.getElementById('action');
         a.href = kiitos.href;
         a.firstElementChild.innerHTML = kiitos.button;
+        a.style.display = kiitos.button ? "block" : "none";
 
         const p = document.createElement('p');
         p.innerHTML = kiitos.chat;

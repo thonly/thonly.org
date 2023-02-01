@@ -6,15 +6,14 @@ class TlMain extends HTMLElement {
         super();
         this.attachShadow({ mode: "open" });
         this.shadowRoot.appendChild(template.content.cloneNode(true));
-        window.addEventListener("hashchange", event => this.#render());
+        window.addEventListener("hashchange", event => this.#render(false));
     }
 
     connectedCallback() {
-        this.#render();
-        setTimeout(() => document.body.scrollIntoView({ behavior: "smooth", block: "start", inline: "center" }), 300);
+        this.#render(true);
     }
 
-    #render() {
+    #render(refresh) {
         const page = window.location.hash.substring(1);
         this.shadowRoot.querySelectorAll('header, main, footer').forEach(element => element.style.display = 'none');
         
@@ -30,6 +29,8 @@ class TlMain extends HTMLElement {
         }
         
         this.style.display = 'block';
+        if (refresh) setTimeout(() => document.body.scrollIntoView({ behavior: "smooth", block: "start", inline: "center" }), 300)
+        else document.body.scrollIntoView({ behavior: "smooth", block: "start", inline: "center" });
     }
 }
 
