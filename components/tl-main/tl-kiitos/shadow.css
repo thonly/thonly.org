@@ -1,22 +1,17 @@
 :host {
     font-size: medium;
+
 }
 
 #laptop {
   height: 700px;
+  position: relative;
 }
 
 #text {
   overflow: hidden scroll;
   text-align: left;
   padding: 0 20px;
-}
-
-#text::before {
-  content: "$";
-  position: absolute;
-  color: white;
-  left: 0;
 }
 
 p {
@@ -32,6 +27,14 @@ p {
   animation: blinking .7s infinite steps(1), typing calc(var(--n)/5*.3s) steps(var(--n)) forwards;
 }
 
+/*
+#text::before {
+  content: "$";
+  position: absolute;
+  color: white;
+  left: 0;
+}
+
 p::after {
   content: "";
   position: absolute;
@@ -40,6 +43,7 @@ p::after {
   width: 5px;
   animation: caret 0.5s step-end infinite calc((var(--n))/5*.3s);
 }
+*/
 
 #button {
   text-align: left;
