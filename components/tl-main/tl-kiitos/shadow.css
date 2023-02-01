@@ -41,9 +41,13 @@ p::after {
   animation: caret 0.5s step-end infinite calc((var(--n))/5*.3s);
 }
 
+#button {
+  text-align: left;
+}
+
 button {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 7px 18px;
   border-radius: 20px;
   outline: none;
   border: none;
@@ -60,8 +64,13 @@ button:hover {
   outline: 4px solid white;
 }
 
-#reset, #power {
+circle {
   cursor: pointer;
+  transition: all 150ms ease-out;
+}
+
+circle:hover {
+  stroke: white;
 }
 
 @keyframes typing {

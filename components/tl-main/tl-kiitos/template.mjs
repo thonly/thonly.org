@@ -72,11 +72,11 @@ template.innerHTML = `
 			<polygon id="yellowBox" style="fill:#ECBA16;" points="79.448,176.552 203.034,176.552 203.034,52.966 79.448,52.966 	" />-->
 		</g>
 		<foreignObject id="text" x="20" y="50" width="480" height="230"></foreignObject>
-		<foreignObject id="button" x="25" y="322" width="460" height="200">
+		<foreignObject id="button" x="18" y="325" width="460" height="200">
 			<a id="action"><button></button></a>
 		</foreignObject>
-		<circle id="reset" cx="30" cy="340" r="25" stroke="#27C93F"/>
-		<circle id="power" cx="30" cy="340" r="25" stroke="#27C93F"/>
+		<circle id="reset" cx="430" cy="352" r="15" fill="#27C93F" stroke="transparent" stroke-width="4"/>
+		<circle id="power" cx="470" cy="352" r="15" fill="#FF5F56" stroke="transparent" stroke-width="4"/>
 		<!--<svg id="reset" xmlns="http://www.w3.org/2000/svg" x="30" y="340" width="24" height="24" viewBox="0 0 24 24" fill="transparent" stroke="#27C93F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="feather feather-refresh-cw"><polyline points="23 4 23 10 17 10"></polyline><polyline points="1 20 1 14 7 14"></polyline><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path></svg>
 		<svg id="power" xmlns="http://www.w3.org/2000/svg" x="460" y="340" width="24" height="24" viewBox="0 0 24 24" fill="transparent" stroke="#FF5F56" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="feather feather-power"><path d="M18.36 6.64a9 9 0 1 1-12.73 0"></path><line x1="12" y1="2" x2="12" y2="12"></line></svg>-->
 	</svg>
