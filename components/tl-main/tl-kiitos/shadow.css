@@ -1,0 +1,93 @@
+:host {
+    font-size: medium;
+}
+
+svg {
+  height: 600px;
+}
+
+#text {
+  overflow: hidden scroll;
+  text-align: left;
+  padding: 0 20px;
+}
+
+#text::before {
+  content: "$";
+  position: absolute;
+  color: white;
+  left: 0;
+}
+
+p {
+  display: inline;
+  font-family: monospace;
+  font-size: large;
+  color: transparent;
+  background: linear-gradient(-90deg, white 5px, transparent 0) 10px 0, linear-gradient(#00DFFC 0 0) 0 0;
+  background-size: calc(var(--n)*1ch) 200%;
+  background-clip: padding-box, text;
+  -webkit-background-clip: padding-box, text;
+  background-repeat: no-repeat;
+  animation: blinking .7s infinite steps(1), typing calc(var(--n)/10*.3s) steps(var(--n)) forwards;
+}
+
+button {
+  display: inline-block;
+  margin: 0.75rem;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 0.1875rem;
+  outline: none;
+  background-color: tomato;
+  color: white;
+  font-family: inherit;
+  font-size: 1.25em;
+  font-weight: 400;
+  line-height: 1.5rem;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  transition: all 150ms ease-out;
+}
+
+button:hover {
+  background-color: #ff7359;
+  box-shadow: 0 0 0 0.1875rem white, 0 0 0 0.375rem #ff7359;
+}
+
+p::after {
+  content: "";
+  position: absolute;
+  margin-left: 5px;
+  height: 18px;
+  width: 5px;
+  background-color: white;
+  animation: blink-caret 0.5s step-end infinite;
+}
+
+@keyframes blink-caret {
+  from, to {
+    background-color: transparent;
+  }
+
+  50% {
+    background-color: white;
+  }
+}
+
+@keyframes typing {
+  from {
+    background-size: 0 200%;
+  }
+}
+
+@keyframes blinking {
+  50% {
+    background-position: 0 -100%, 0 0;
+  }
+}
+
+@media (max-width: 480px) {
+    
+}
