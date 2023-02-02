@@ -1,10 +1,10 @@
 :host {
-    font-size: medium;
-
+  font-size: medium;
+  --width: 80vw;
 }
 
 #laptop {
-  height: 700px;
+  width: 50vw;
   position: relative;
 }
 
@@ -101,6 +101,6 @@ circle:hover {
 
 @media (max-width: 480px) {
   #laptop {
-    height: 300px;
+    width: var(--width);
   }
 }
