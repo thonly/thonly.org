@@ -6,39 +6,33 @@
 
 header, main, footer {
     display: none;
-}
-
-header {
     position: absolute;
     z-index: 100;
     width: 100%;
+}
+
+header {
     text-align: left;
     margin-top: 5%;
     margin-left: 5%;
     color: white;
 }
 
-button {
-    font-size: large;
-    padding: 5px 40px;
-    cursor: pointer;
-}
-
 main {
-    position: absolute;
-    z-index: 100;
-    width: 100%;
     text-align: center;
     margin-top: 5%;
 }
 
 footer {
-    position: absolute;
-    z-index: 100;
-    width: 100%;
     text-align: right;
     margin-top: 5%;
     right: 15%;
+}
+
+button {
+    font-size: large;
+    padding: 5px 40px;
+    cursor: pointer;
 }
 
 video {

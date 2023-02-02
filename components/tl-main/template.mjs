@@ -1,5 +1,6 @@
 import "./tl-kiitos/element.mjs";
 import "./tl-avatar/element.mjs";
+import "./tl-robot/element.mjs";
 const template = document.createElement("template");
 
 template.innerHTML = `
@@ -14,6 +15,7 @@ template.innerHTML = `
     </main>
     <footer>
         <tl-avatar></tl-avatar>
+        <!--<tl-robot></tl-robot>-->
     </footer>
     <video poster="thonly.jpeg" src="components/tl-main/thonly.mp4" autoplay preload loop muted playsinline></video>
 `;
