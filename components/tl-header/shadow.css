@@ -151,12 +151,20 @@ button.cohort {
 	background-color: purple;
 }
 
+button.cohort:hover {
+	border-color: purple;
+}
+
 li.cohort {
 	color: purple;
 }
 
 button.coin {
 	background-color: orangered;
+}
+
+button.coin:hover {
+	border-color: orangered;
 }
 
 li.coin {
