@@ -75,7 +75,7 @@ template.innerHTML = `
 		</g>
 		<text x="20" y="65" fill="white">$</text>
 		<foreignObject id="text" x="20" y="50" width="480" height="230"></foreignObject>
-		<foreignObject id="button" x="18" y="325" width="460" height="200">
+		<foreignObject id="button" x="18" y="325" width="350" height="200">
 			<a id="action"><button></button></a>
 		</foreignObject>
 		<circle id="reset" cx="430" cy="352" r="15" fill="#27C93F" stroke="transparent" stroke-width="4"/>
