@@ -6,7 +6,7 @@ const template = document.createElement("template");
 
 template.innerHTML = `
     <link rel="stylesheet" href="${THONLY}/components/tl-main/tl-kiitos/shadow.css">
-	<svg version="1.1" id="laptop" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+	<svg id="laptop" width="0" viewBox="0 0 512 390">
 		<g>
 			<path id="screen" fill="#38454FCC" d="M512,317.793H0V48.552c0-17.064,13.833-30.897,30.897-30.897h450.207
 				c17.064,0,30.897,13.833,30.897,30.897V317.793z" />
