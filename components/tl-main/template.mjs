@@ -12,10 +12,10 @@ template.innerHTML = `
     </header>
     <main>
         <tl-kiitos></tl-kiitos>
+        <tl-robot></tl-robot>
     </main>
     <footer>
         <tl-avatar></tl-avatar>
-        <!--<tl-robot></tl-robot>-->
     </footer>
     <video poster="thonly.jpeg" src="components/tl-main/thonly.mp4" autoplay preload loop muted playsinline></video>
 `;

@@ -24,8 +24,8 @@ class TlKiitos extends HTMLElement {
 
         const p = document.createElement('p');
         p.innerHTML = kiitos.chat;
-        p.style.setProperty('--n', p.innerText.length);
-        this.shadowRoot.getElementById('text').replaceChildren(p);
+        this.style.setProperty('--n', p.innerText.length);
+        this.shadowRoot.getElementById('text').replaceChildren(p, document.createElement('span'));
     }
 }
 

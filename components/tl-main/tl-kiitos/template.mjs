@@ -73,6 +73,7 @@ template.innerHTML = `
 			</g>
 			<polygon id="yellowBox" style="fill:#ECBA16;" points="79.448,176.552 203.034,176.552 203.034,52.966 79.448,52.966 	" />-->
 		</g>
+		<text x="20" y="65" fill="white">$</text>
 		<foreignObject id="text" x="20" y="50" width="480" height="230"></foreignObject>
 		<foreignObject id="button" x="18" y="325" width="460" height="200">
 			<a id="action"><button></button></a>
