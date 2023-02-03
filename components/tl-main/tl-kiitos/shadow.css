@@ -8,6 +8,11 @@
   width: 50vw;
 }
 
+#screen {
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
 #text {
   overflow: hidden scroll;
   text-align: left;
