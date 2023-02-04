@@ -64,7 +64,7 @@ template.innerHTML = `
                         <li><a href="#markets">Markets</a></li>
                         <li><a href="#orchards">Orchards</a></li>
                     </menu>
-                    <h4>Founder at HeartBank®</h4>
+                    <h4>Founder at HeartBank<sup>®</sup></h4>
                     <menu>
                         <li><a href="#heartbank">Subsidiaries</a></li>
                         <li><a href="#foundation">Foundation</a></li>
