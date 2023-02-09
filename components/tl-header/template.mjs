@@ -16,7 +16,7 @@ template.innerHTML = `
 
         @media (max-height: 480px) {
             section {
-                flex: 2;
+                flex: 1.5;
             }
         }
     </style>

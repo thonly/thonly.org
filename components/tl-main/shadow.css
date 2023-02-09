@@ -45,7 +45,7 @@ tl-robot {
     float: right;
 }
 
-@media (max-width: 480px) or (max-height: 480px) {
+@media (max-width: 480px), (max-height: 480px) {
     header {
         margin-top: 60%;
         margin-left: 0;
