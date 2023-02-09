@@ -226,7 +226,7 @@ li.coin {
 
 /*----------*/
 
-@media (max-width: 480px) {
+@media (max-width: 480px) or (max-height: 480px) {
 	section {
 		flex: 5;
 	}

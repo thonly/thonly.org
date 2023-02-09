@@ -13,6 +13,12 @@ template.innerHTML = `
                 font-size: 2.5em;
             }
         }
+
+        @media (max-height: 480px) {
+            section {
+                flex: 2;
+            }
+        }
     </style>
     <header>
         <section>
