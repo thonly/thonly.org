@@ -10,7 +10,7 @@ template.innerHTML = `
 
         @media (max-width: 480px) {
             h1 {
-                font-size: 2.5em;
+                font-size: 2em;
             }
         }
 
