@@ -67,7 +67,7 @@ template.innerHTML = `
                 <div>
                     <h5>Sports</h5>
                     <ul>
-                        <li><a href="https://kitty.kiitos.earth/#ThonLy">Kiitos</a></li>
+                        <li><a href="https://kitty.kiitti.app/#ThonLy">Kiitti</a></li>
                         <li><a href="https://www.youtube.com/@ThonLy">YouTube</a></li>
                         <li><a href="https://instagram.com/thon.ly">Instagram</a></li>
                     </ul>

@@ -87,26 +87,28 @@ template.innerHTML = `
                             <li><a href="#equation">Zero Hero Equation</a></li>
                             <li><a href="#blockchain">Non Zero-Sum Blockchain</a></li>
                         </menu>
-                        <h4>Kitty Kiitos</h4>
-                        <menu>
-                            <li><a href="#sports">Sports</a></li>
-                            <li><a href="#games">Metaverse</a></li>
-                        </menu>
-                    </nav>
-                </li>
-                <li>
-                    <h3>Meditation</h3>
-                    <nav>
-                        <a href="https://zero.thonly.org"><button>Zero Joy Love</button></a>
                         <h4>Music</h4>
                         <menu>
                             <li><a href="#podcast">The Code of Success Podcast</a></li>
                             <li><a href="#radio">Coding Music Radio Station</a></li>
                             <li><a href="#music">Sinn Sisamouth Music Library</a></li>
                         </menu>
+                    </nav>
+                </li>
+                <li>
+                    <h3>Meditation</h3>
+                    <nav>
+                        <a href="https://kiitti.app"><button>Kiitti.app</button></a>
+                        <!--<a href="https://zero.thonly.org"><button>Zero Joy Love</button></a>-->
+                        <h4>Kitty Kiitti</h4>
+                        <menu>
+                            <li><a href="#sports">Sports</a></li>
+                            <li><a href="#games">Metaverse</a></li>
+                        </menu>
                         <h4>Sports</h4>
                         <menu>
                             <li><a href="#kendo">Kendo</a></li>
+                            <li><a href="#surfing">Surfing</a></li>
                             <li><a href="#takraw">Sepak Takraw</a></li>
                             <li><a href="#skating">Ice Skating</a></li>
                         </menu>

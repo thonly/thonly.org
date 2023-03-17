@@ -118,6 +118,11 @@ export default {
         button: `<b>kendo</b>.thonly.org`,
         href: "https://kendo.thonly.org"
     },
+    surfing: {
+        chat: `Currently in <i>stealth</i> development...`,
+        button: null,
+        href: null
+    },
     takraw: {
         chat: `Currently in <i>stealth</i> development...`,
         button: null,
