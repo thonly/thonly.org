@@ -108,8 +108,8 @@ template.innerHTML = `
                         <h4>Sports</h4>
                         <menu>
                             <li><a href="#kendo">Kendo</a></li>
-                            <li><a href="#surfing">Surfing</a></li>
                             <li><a href="#takraw">Sepak Takraw</a></li>
+                            <li><a href="#surfing">Surfing</a></li>
                             <li><a href="#skating">Ice Skating</a></li>
                         </menu>
                     </nav>
