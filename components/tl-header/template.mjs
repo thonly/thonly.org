@@ -90,8 +90,9 @@ template.innerHTML = `
                         <h4>Music</h4>
                         <menu>
                             <li><a href="#podcast">The Code of Success Podcast</a></li>
-                            <li><a href="#radio">Coding Music Radio Station</a></li>
                             <li><a href="#music">Sinn Sisamouth Music Library</a></li>
+                            <li><a href="#radio">Coding Music Radio Station</a></li>
+                            <li><a href="#school">Music School for Kids</a></li>
                         </menu>
                     </nav>
                 </li>

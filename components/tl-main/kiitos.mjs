@@ -87,6 +87,27 @@ export default {
         button: null,
         href: null
     },
+    podcast: {
+        chat: `Currently in <i>stealth</i> development...`,
+        button: `<b>podcast</b>.thonly.org`,
+        href: "https://podcast.thonly.org"
+    },
+    music: {
+        chat: `Currently in <i>stealth</i> development...`,
+        button: `<b>music</b>.thonly.org`,
+        href: "https://music.thonly.org"
+    },
+    radio: {
+        chat: `Currently in <i>stealth</i> development...`,
+        button: `<b>music</b>.siliconwat.com`,
+        href: "https://music.siliconwat.com"
+    },
+    school: {
+        chat: `Currently in <i>stealth</i> development...`,
+        button: `<b>music</b>.siliconwat.org`,
+        href: "https://music.siliconwat.org"
+    },
+    // meditation
     sports: {
         chat: `Currently in <i>stealth</i> development...`,
         button: null,
@@ -96,22 +117,6 @@ export default {
         chat: `Currently in <i>stealth</i> development...`,
         button: null,
         href: null
-    },
-    // meditation
-    podcast: {
-        chat: `Currently in <i>stealth</i> development...`,
-        button: `<b>podcast</b>.thonly.org`,
-        href: "https://podcast.thonly.org"
-    },
-    radio: {
-        chat: `Currently in <i>stealth</i> development...`,
-        button: `<b>radio</b>.thonly.org`,
-        href: "https://radio.thonly.org"
-    },
-    music: {
-        chat: `Currently in <i>stealth</i> development...`,
-        button: `<b>music</b>.thonly.org`,
-        href: "https://music.thonly.org"
     },
     kendo: {
         chat: `Currently in <i>stealth</i> development...`,
