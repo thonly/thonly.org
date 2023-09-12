@@ -107,7 +107,7 @@ template.innerHTML = `
                     </ul>
                 </div>
                 <tl-donors></tl-donors>
-                <a href="https://calendar.thonly.org"><button>Book FREE Consultation</button></a>
+                <a><button>Book FREE Consultation</button></a>
             </section>
         </main>
         <footer>

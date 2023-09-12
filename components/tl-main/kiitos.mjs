@@ -58,13 +58,13 @@ export default {
     },
     markets: {
         chat: `Currently in <i>stealth</i> development...`,
-        button: `NhiaKou.<b>com</b>`,
-        href: "https://nhiakou.com"
+        button: `Kiitos.<b>Earth</b>`,
+        href: "https://kiitos.earth"
     },
     orchards: {
         chat: `Currently in <i>stealth</i> development...`,
-        button: `NhiaKou.<b>org</b>`,
-        href: "https://nhiakou.org"
+        button: `333.<b>eco</b>`,
+        href: "https://333.eco"
     },
     heartbank: {
         chat: `Currently in <i>stealth</i> development...`,

@@ -34,7 +34,7 @@ template.innerHTML = `
                 <li>
                     <h3>Research</h3>
                     <nav>
-                        <a href="https://333.eco"><button>333.eco</button></a>
+                        <a href="https://thonly.org"><button>thonly.org</button></a>
                         <h4>Research & Development</h4>
                         <menu>
                             <!--<li><a>Micro Wallet</a></li>
@@ -55,7 +55,7 @@ template.innerHTML = `
                     <h3>Work</h3>
                     <nav>
                         <a href="https://me.thonly.org"><button>Business Card</button></a>
-                        <h4>Instructor at Silicon Wat</h4>
+                        <h4>Instructor at Silicon Wat LLC</h4>
                         <menu>
                             <li><a href="#university">University</a></li>
                             <li><a href="#campus">Campus</a></li>
@@ -66,7 +66,7 @@ template.innerHTML = `
                             <li><a href="#studios">Studios</a></li>
                             <li><a href="#metaverse">Metaverse</a></li>
                         </menu>
-                        <h4>Organic Farmer at Nhia Kou</h4>
+                        <h4>Organic Farmer at 333 Ltd</h4>
                         <menu>
                             <li><a href="#markets">Markets</a></li>
                             <li><a href="#orchards">Orchards</a></li>
