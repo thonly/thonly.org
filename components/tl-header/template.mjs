@@ -34,7 +34,7 @@ template.innerHTML = `
                 <li>
                     <h3>Research</h3>
                     <nav>
-                        <a href="https://thonly.org"><button>ThonLy.org</button></a>
+                        <a href="https://333.eco"><button>333.eco</button></a>
                         <h4>Research & Development</h4>
                         <menu>
                             <!--<li><a>Micro Wallet</a></li>
