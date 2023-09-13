@@ -103,15 +103,16 @@ template.innerHTML = `
                         <!--<a href="https://zero.thonly.org"><button>Zero Joy Love</button></a>-->
                         <h4>Kitty Kiitti</h4>
                         <menu>
-                            <li><a href="#sports">Sports</a></li>
+                            <li><a href="#matchups">Matchups</a></li>
                             <li><a href="#games">Metaverse</a></li>
                         </menu>
                         <h4>Sports</h4>
                         <menu>
                             <li><a href="#kendo">Kendo</a></li>
-                            <li><a href="#takraw">Sepak Takraw</a></li>
                             <li><a href="#surfing">Surfing</a></li>
                             <li><a href="#skating">Ice Skating</a></li>
+                            <li><a href="#smartball">Smartball</a></li>
+                            <!--<li><a href="#takraw">Sepak Takraw</a></li>-->
                         </menu>
                     </nav>
                 </li>

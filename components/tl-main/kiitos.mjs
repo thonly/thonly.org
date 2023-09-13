@@ -108,7 +108,7 @@ export default {
         href: "https://music.siliconwat.org"
     },
     // meditation
-    sports: {
+    matchups: {
         chat: `Currently in <i>stealth</i> development...`,
         button: null,
         href: null
@@ -128,12 +128,17 @@ export default {
         button: null,
         href: null
     },
-    takraw: {
+    skating: {
         chat: `Currently in <i>stealth</i> development...`,
         button: null,
         href: null
     },
-    skating: {
+    smartball: {
+        chat: `Currently in <i>stealth</i> development...`,
+        button: null,
+        href: null
+    },
+    takraw: {
         chat: `Currently in <i>stealth</i> development...`,
         button: null,
         href: null
