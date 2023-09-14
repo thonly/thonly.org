@@ -49,7 +49,7 @@ template.innerHTML = `
                 <div>
                     <h5>Credentials</h5>
                     <ul>
-                        <li><a href="https://bitwiseindustries.com/services/apprenticeships">Frontend React Apprenticeship</a></li>
+                        <li><a href="https://bitwiseindustries.com">Frontend React Apprenticeship</a></li>
                         <li><a href="https://consensys.net/academy/bootcamp">Fullstack Blockchain Bootcamp</a></li>
                         <li><a href="https://www.udacity.com/course/ios-developer-nanodegree--nd003">iOS Developer Nanodegree</a></li>
                     </ul>
