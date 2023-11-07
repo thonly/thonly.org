@@ -61,7 +61,7 @@ export default {
         button: `Kiitos.<b>Earth</b>`,
         href: "https://kiitos.earth"
     },
-    orchards: {
+    labs: {
         chat: `Currently in <i>stealth</i> development...`,
         button: `333.<b>eco</b>`,
         href: "https://333.eco"

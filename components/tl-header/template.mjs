@@ -68,8 +68,8 @@ template.innerHTML = `
                         </menu>
                         <h4>Organic Farmer at 333 Ltd</h4>
                         <menu>
+                            <li><a href="#labs">Labs</a></li>
                             <li><a href="#markets">Markets</a></li>
-                            <li><a href="#orchards">Orchards</a></li>
                         </menu>
                         <h4>Founder at HeartBank<sup>®</sup></h4>
                         <menu>

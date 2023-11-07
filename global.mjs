@@ -1,12 +1,13 @@
 export const THONLY = window.location.hostname === '127.0.0.1' ? "http://127.0.0.1:5500" : "https://thonly.org";
 export const ECO333 = window.location.hostname === '127.0.0.1' ? "http://127.0.0.1:5510" : "https://333.eco";
-export const KIITOS = window.location.hostname === '127.0.0.1' ? "http://127.0.0.1:5520" : "https://kiitos.earth";
+//export const KIITOS = window.location.hostname === '127.0.0.1' ? "http://127.0.0.1:5520" : "https://kiitos.earth";
 export const UNIVERSITY = window.location.hostname === '127.0.0.1' ? "http://127.0.0.1:5610" : "https://siliconwat.com";
 export const CAMPUS = window.location.hostname === '127.0.0.1' ? "http://127.0.0.1:5620" : "https://siliconwat.org";
-export const STUDIOS = window.location.hostname === '127.0.0.1' ? "http://127.0.0.1:5700" : "https://thonly.com";
+// siliconwat.dev: port 5630
+export const STUDIOS = window.location.hostname === '127.0.0.1' ? "http://127.0.0.1:5700" : "https://thonly.com"; // later: GYMS
 export const METAVERSE = window.location.hostname === '127.0.0.1' ? "http://127.0.0.1:5750" : "https://thonly.net";
-export const MARKETS = window.location.hostname === '127.0.0.1' ? "http://127.0.0.1:5800" : "https://nhiakou.com";
-export const ORCHARDS = window.location.hostname === '127.0.0.1' ? "http://127.0.0.1:5850" : "https://nhiakou.org";
+export const NK_OFFICE = window.location.hostname === '127.0.0.1' ? "http://127.0.0.1:5800" : "https://nhiakou.com";
+export const NK_FOUNDATION = window.location.hostname === '127.0.0.1' ? "http://127.0.0.1:5850" : "https://nhiakou.org";
 export const HEARTBANK = window.location.hostname === '127.0.0.1' ? "http://127.0.0.1:5900" : "https://heartbank.com";
 export const FOUNDATION = window.location.hostname === '127.0.0.1' ? "http://127.0.0.1:5950" : "https://heartbank.org";
 
